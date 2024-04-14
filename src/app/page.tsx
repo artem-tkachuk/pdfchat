@@ -37,6 +37,24 @@ export default function Home() {
           PDFChat is now public!
         </p>
       </div>
+      <h1 className="
+        max-w-4xl 
+        text-5xl 
+        font-bold 
+        md:text-6xl 
+        lg:text-7xl"
+      >
+        Chat with your <span className="text-blue-600">documents</span>
+      </h1>
+      <p className="
+        mt-5 
+        max-w-prose 
+        text-zinc-700
+        sm:text-lg"
+      >
+        PDF Chat allows you to have conversations with any PDF document. <br></br>
+        Simply upload your file and start asking questions right away!
+      </p>
     </MaxWidthWrapper>
   );
 }
